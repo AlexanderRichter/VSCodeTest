@@ -22,11 +22,23 @@ codeunit 50010 MyCustomCodeunit
     end;
 
 
+
     local procedure seocndFeaature()
     begin
         //This Branch was created aftter first dev bracnc from stage
         //But before merging the first branch to back to stage
 
         //no meaninfful stuff in here
+    end;
+    
+    
+    local procedure DevStageFeature()
+    var
+        ValA = Decimal;
+        ValB = Decimal;
+        Result = Decimal;
+    begin
+        //I can now also multiply stufff
+        Result = ValA * ValB;
     end;
 }
