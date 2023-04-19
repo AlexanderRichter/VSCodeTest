@@ -21,4 +21,9 @@ codeunit 50010 MyCustomCodeunit
         Result := Result / 2;
     end;
 
+    local procedure MyProcedure()
+    begin
+        //This procedure was created in Dev_From Master 
+    end;
+
 }
