@@ -21,6 +21,17 @@ codeunit 50010 MyCustomCodeunit
         Result := Result / 2;
     end;
 
+
+
+    local procedure seocndFeaature()
+    begin
+        //This Branch was created aftter first dev bracnc from stage
+        //But before merging the first branch to back to stage
+
+        //no meaninfful stuff in here
+    end;
+    
+    
     local procedure DevStageFeature()
     var
         ValA = Decimal;
