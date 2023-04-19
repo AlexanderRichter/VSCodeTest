@@ -21,4 +21,13 @@ codeunit 50010 MyCustomCodeunit
         Result := Result / 2;
     end;
 
+    local procedure DevStageFeature()
+    var
+        ValA = Decimal;
+        ValB = Decimal;
+        Result = Decimal;
+    begin
+        //I can now also multiply stufff
+        Result = ValA * ValB;
+    end;
 }
